@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Grind - Lesson 14</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+
+    <main>
+
+        <form action="/submit" method="post">
+            <label for="username">Username</label>
+            <input id="username" type="text">
+
+            <h2>Interests</h2>
+
+            <input id="web-dev" type="checkbox">
+            <label for="web-dev">Web Development</label>
+
+            <input id="mobile-dev" type="checkbox">
+            <label for="mobile-dev">Mobile Development</label>
+
+            <input id="ui-ux" type="checkbox">
+            <label for="ui-ux">UI/UX Design</label>
+
+            <h2>Preferred Learning Mode</h2>
+
+            <input id="online" type="radio" name="learning-mode">
+            <label for="online">Online</label>
+
+            <input id="hybrid" type="radio" name="learning-mode">
+            <label for="hybrid">Hybrid</label>
+
+            <input id="face-to-face" type="radio" name="learning-mode">
+            <label for="face-to-face">Face-to-Face</label>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
