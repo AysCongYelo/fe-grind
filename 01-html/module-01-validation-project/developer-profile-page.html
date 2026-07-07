@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile Page</title>
+</head>
+
+<body id="top">
+    <header>
+        <h1>Eduard Ace Pascual</h1>
+        <p>
+            Aspiring Frontend Developer passionate about building clean, accessible, and user-friendly web applications.
+            Currently strengthening my frontend fundamentals through the Frontend Grind learning path while preparing
+            for a career in software development.
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Eduard Ace Pascual, an aspiring software developer with a strong interest in web development.
+                I enjoy learning how websites are built, solving programming problems, and continuously improving my
+                technical skills. My current focus is mastering HTML, CSS, JavaScript, and React to become a job-ready
+                frontend developer.
+            </p>
+            <img src="images/sample.jpg" alt="This is a sample image.">
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Learning Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project</th>
+                        <th>Technology</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Personal Portfolio</td>
+                        <td>HTML</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>Responsive Landing Page</td>
+                        <td>HTML & CSS</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>Task Manager App</td>
+                        <td>React</td>
+                        <td>Planned</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacts">
+            <form action="/submit" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" type="text" required minlength="3">
+
+                    <label for="email">Email</label>
+                    <input id="email" type="email" required>
+
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="general-inquiry">General Inquiry</option>
+                        <option value="project-collaboration">Project Collaboration</option>
+                        <option value="job-opportunity">Job Opportunity</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" required minlength="10"></textarea>
+                </fieldset>
+
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </section>
+
+        <section id="resources">
+            <h2>Learning Resources</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                <li><a href="https://www.w3.org/">W3C Web Standards</a></li>
+                <li><a href="https://roadmap.sh/">roadmap.sh</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <a href="#top">Back to Top</a>
+
+        <p>&copy; 2026 Eduard Ace Pascual. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
