@@ -1,0 +1,18 @@
+h1 {
+    color: navy;
+}
+
+.named {
+    color: white;
+    background-color: green;
+}
+
+.hex {
+    color: #ffffff;
+    background-color: #3498db;
+}
+
+.rgb {
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 76, 60);
+}
