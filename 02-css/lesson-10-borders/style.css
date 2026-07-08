@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.solid {
+    border: 3px solid blue;
+}
+
+.dashed {
+    border: 3px dashed green;
+}
+
+.rounded {
+    border: 3px solid red;
+    border-radius: 15px;
+}
