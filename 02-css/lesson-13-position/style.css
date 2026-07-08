@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.static {
+    background-color: gray;
+}
+
+.relative {
+    background-color: blue;
+    position: relative;
+    left: 30px;
+}
+
+.absolute-container {
+    position: relative;
+    height: 120px;
+    border: 2px solid black;
+}
+
+.absolute {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
