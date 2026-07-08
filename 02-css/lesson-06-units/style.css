@@ -1,0 +1,21 @@
+h1 {
+    font-size: 40px;
+}
+
+.pixels {
+    font-size: 20px;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.container {
+    width: 400px;
+    background-color: lightgray;
+}
+
+.percentage {
+    width: 50%;
+    background-color: lightblue;
+}
