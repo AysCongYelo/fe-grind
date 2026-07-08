@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+div {
+    width: 250px;
+    border: 2px solid blue;
+}
+
+.box-one {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+}
+
+.box-two {
+    padding: 10px 30px;
+    margin: 10px 20px 30px 40px;
+    background-color: lightgreen;
+}
