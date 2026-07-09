@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
